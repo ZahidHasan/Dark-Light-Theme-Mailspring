@@ -12,9 +12,6 @@ If you are a git user, you can install the theme and keep up to date by cloning 
 ```ps
 $ git clone https://github.com/ZahidHasan/Dark-Light-Theme-Mailspring.git
 ```
-```bash
-$ git clone https://github.com/ZahidHasan/Dark-Light-Theme-Mailspring.git
-```
 #### Manually Download
 
 Download zip file and unzip it into a folder.
