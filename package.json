@@ -1,0 +1,12 @@
+{
+  "name": "Dark-Light",
+  "displayName": "Dark-Light",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Dark-Light Theme for MailSpring",
+  "license": "GPL-3.0",
+  "engines": {
+    "mailspring": "*"
+  },
+  "private": true
+}

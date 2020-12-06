@@ -1,0 +1,98 @@
+@import 'base/ui-variables';
+
+@gray-base: #f8f8f2;
+@gray-darker: darken(@gray-base, 13.5%);
+@gray-dark: darken(@gray-base, 20%);
+@gray: darken(@gray-base, 33.5%);
+@gray-light: darken(@gray-base, 46.7%);
+@gray-lighter: darken(@gray-base, 92.5%);
+@white: #282a36;
+
+@accent-primary:  #798bff;
+@accent-primary-dark: #798bff;
+
+@background-primary: #2e2e2e;
+@background-off-primary: #2e2e2e;
+@background-secondary: #2e2e2e;
+@background-tertiary: #2e2e2e;
+
+@border-color-primary: #2e2e2e;
+@border-color-secondary: #2e2e2e;
+@border-color-tertiary: #2e2e2e;
+@border-color-divider: #2e2e2e;
+
+@text-color: @gray-base;
+@text-color-subtle: fadeout(@text-color, 20%);
+@text-color-very-subtle: fadeout(@text-color, 40%);
+@text-color-inverse: @gray-base;
+@text-color-inverse-subtle: fadeout(@text-color-inverse, 20%);
+@text-color-inverse-very-subtle: fadeout(@text-color-inverse, 50%);
+@text-color-heading: @gray-base;
+
+@text-color-link: @accent-primary;
+@text-color-link-hover: @accent-primary-dark;
+@text-color-link-active: @accent-primary-dark;
+
+@btn-default-bg-color: lighten(@background-primary, 4%);
+@dropdown-default-bg-color: #2e2e2e;
+
+@input-bg: #2e2e2e;
+@input-border: #2e2e2e;
+
+@list-bg: #2e2e2e;
+@list-border: #2e2e2e;
+@list-selected-color: @text-color-inverse;
+@list-focused-color: @text-color;
+
+@toolbar-background-color: #2e2e2e;
+@panel-background-color:#2e2e2e;
+
+.sheet-toolbar {
+  border-bottom: 0px none ;
+  box-shadow: none;
+}
+
+.thread-icon:not(.thread-icon-unread):not(.thread-icon-star) {
+  filter: invert(100%);
+}
+
+img.content-dark {
+  filter: invert(50%);
+}
+
+img.content-light {
+  filter: invert(50%);
+}
+
+.mail-label {
+  filter: contrast(110%) brightness(85%);
+}
+
+
+
+#message-list .message-item-wrap .message-item-white-wrap {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.28),
+    0 0px 0px rgba(255, 255, 255, 0.08);
+}
+
+ .thread-list .list-item:not(.unread):not(.selected):not(.focused) {
+  color: #aaa;
+}
+
+.thread-list .list-item.thread-list-reminder-item {
+  background-color: #2e2e2e;
+
+  &.unread {
+    background-color: #2e2e2e;
+
+    &:not(.focused):not(.selected) {
+      background-color: #2e2e2e;
+    }
+  }
+}
+
+.send-reminders-header {
+  color: #7d5bef;
+  background: #2e2e2e;
+  border-bottom: 0px solid #2e2e2e;
+}
