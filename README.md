@@ -1,4 +1,4 @@
-# A Minimalist Dark Light Theme for [MailSpring](https://getmailspring.com) Email Client
+# A Minimalist Dark Theme for [MailSpring](https://getmailspring.com) Email Client
 
 > A light dark theme for [MailSpring](https://getmailspring.com).
 
